@@ -272,28 +272,22 @@ footer {
     width: 320px;
     height: 62px;
   }
-  footer {
-    height: 18vh;
-    background-repeat: no-repeat;
-  }
+
   .footer-div-main {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
     width: 70vw;
-    padding-top: 80px;
   }
   .footer-div-main p {
-    font-family: graphik-600;
-    font-style: normal;
-    font-size: 24px;
+    font-size: 22px;
   }
   #app {
     width: 120px;
   }
 }
 @media screen and (max-width: 640px) {
+  main {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
   #logo {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -327,27 +321,26 @@ footer {
     font-size: 20px;
   }
   .cta a button {
-    width: 240px;
-    height: 62px;
-  }
-  footer {
-    height: 18vh;
-    background-repeat: no-repeat;
+    width: 260px;
+    height: 52px;
   }
   .footer-div-main {
+    width: 92vw;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    align-items: center;
-    width: 70vw;
-    padding-top: 80px;
+    padding-top: 0px;
   }
   .footer-div-main p {
     font-family: graphik-600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18px;
+  }
+  .footer-div-child {
+    display: flex;
+    justify-content: space-between;
   }
   #app {
-    width: 120px;
+    width: 100px;
+    margin-left: 20px;
   }
 }
