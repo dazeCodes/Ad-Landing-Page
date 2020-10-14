@@ -1,0 +1,119 @@
+@font-face {
+  font-family: graphik-700;
+  src: url(Graphik-Font-Family/GraphikBold.otf);
+}
+@font-face {
+  font-family: graphik-600;
+  src: url(Graphik-Font-Family/GraphikSemibold.otf);
+}
+@font-face {
+  font-family: graphik-500;
+  src: url(Graphik-Font-Family/GraphikMedium.otf);
+}
+@font-face {
+  font-family: graphik-400;
+  src: url(Graphik-Font-Family/GraphikRegular.otf);
+}
+@font-face {
+  font-family: graphik-300;
+  src: url(Graphik-Font-Family/GraphikLight.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+:root {
+  --blue: #0668e3;
+  --orange: #ff9000;
+  --black: #212529;
+  --white: #ffffff;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#logo {
+  margin: 20px 0;
+}
+.alright-sect {
+  margin: 30px;
+}
+.alright-sect p {
+  font-family: graphik-500;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--black);
+}
+.alright-sect p span {
+  color: var(--orange);
+  font-family: graphik-700;
+}
+.blue-sect {
+}
+.blue-sect div {
+  width: 60vw;
+  height: 130px;
+  background: var(--blue);
+  box-shadow: 0px 4px 13px rgba(196, 196, 196, 0.25);
+  border-radius: 7px;
+
+  font-family: graphik-500;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-sect div span a {
+  color: var(--orange);
+}
+.blue-sect {
+  margin-bottom: 30px;
+}
+.under-blue-sect p {
+  font-family: graphik-400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#see {
+  color: var(--blue);
+  font-family: graphik-500;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.btn-text {
+  color: var(--white);
+  text-decoration: none;
+  font-family: graphik-500;
+  font-style: normal;
+  font-size: 24px;
+}
+.cta a button {
+  background: var(--orange);
+  border: none;
+  width: 350px;
+  height: 64px;
+  box-shadow: 0px 4px 13px rgba(255, 144, 0, 0.25);
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background-image: url(img/Vector\ 4.svg);
+}
