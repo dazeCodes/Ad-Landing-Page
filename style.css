@@ -343,4 +343,64 @@ footer {
     width: 100px;
     margin-left: 20px;
   }
+
+  /* for questionnare */
+  .quest-blue-sect {
+    width: 92vw;
+    height: 360px;
+    margin-bottom: 28px;
+  }
+  .quest-blue-sect .blue-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 2% 10%;
+  }
+  .quest-blue-sect form {
+    margin-top: 24px;
+    width: 60%;
+  }
+  .form-text {
+    margin-right: 10%;
+    font-size: 20px;
+  }
+  .second-sect {
+    width: 92vw;
+    height: 200px;
+    margin-bottom: 40px;
+    padding: 5% 0;
+  }
+  .second-text {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .second-sect-buttons {
+    width: 80%;
+  }
+  .second-btn {
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--black);
+    font-family: graphik-400;
+    width: 42%;
+    height: 38px;
+  }
+  .equal {
+    font-size: 32px;
+  }
+  .final-sect {
+    margin-left: auto;
+    margin-right: 0vw;
+    font-size: 20px;
+  }
+  .final-sect a button {
+    background: var(--orange);
+    border: none;
+    width: 120px;
+    height: 54px;
+    box-shadow: 0px 4px 13px rgba(255, 144, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+  }
 }
