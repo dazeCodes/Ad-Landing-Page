@@ -22,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 :root {
   --blue: #0668e3;
@@ -122,11 +122,10 @@ main {
   cursor: pointer;
 }
 footer {
-  /* margin-top: -10vh; */
-  background: url("./img/Vector4.svg");
-  background-size: 100%;
-  height: 18vh;
-  background-repeat: no-repeat;
+  margin-top: -15vh;
+}
+footer img {
+  width: 100%;
 }
 .footer-div-main {
   display: flex;
@@ -134,7 +133,7 @@ footer {
   margin: auto;
   align-items: center;
   width: 60vw;
-  padding-top: 120px;
+  margin-top: -15vh;
 }
 .footer-div-main p {
   font-family: graphik-600;
