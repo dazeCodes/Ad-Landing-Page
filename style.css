@@ -446,11 +446,8 @@ footer img {
   .quest-blue-sect form {
     margin-top: 24px;
     width: 300px;
-  }
-  form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .form-text {
     margin: 0;
