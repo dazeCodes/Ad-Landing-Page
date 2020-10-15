@@ -271,15 +271,26 @@ footer img {
     width: 320px;
     height: 62px;
   }
-
+  footer {
+    margin-top: -15vh;
+  }
+  footer img {
+    width: 100%;
+  }
   .footer-div-main {
-    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 80vw;
+    margin-top: -10vh;
   }
   .footer-div-main p {
-    font-size: 22px;
-  }
-  #app {
-    width: 120px;
+    font-family: graphik-600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 54px;
+    color: var(--blue);
   }
   /* for questionnare */
   .quest-blue-sect {
