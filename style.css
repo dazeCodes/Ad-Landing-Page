@@ -318,6 +318,7 @@ footer img {
     width: 70vw;
     margin-bottom: 28px;
     padding: 0 10%;
+    background-size: 180px;
   }
   .quest-blue-sect .blue-text {
     font-family: graphik-600;
@@ -380,6 +381,7 @@ footer img {
     padding: 0 10%;
     font-size: 18px;
     line-height: 24px;
+    background-size: 10px;
   }
   .under-blue-sect p {
     font-size: 18px;
@@ -435,20 +437,24 @@ footer img {
     width: 92vw;
     height: 360px;
     margin-bottom: 28px;
+    background-size: 140px;
   }
   .quest-blue-sect .blue-text {
     font-size: 20px;
     line-height: 30px;
-    padding: 2% 10%;
   }
   .quest-blue-sect form {
     margin-top: 24px;
     width: 60%;
   }
-
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .form-text {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
   }
   .second-sect {
     width: 92vw;
