@@ -1,0 +1,62 @@
+@font-face {
+  font-family: graphik-700;
+  src: url(Graphik-Font-Family/GraphikBold.otf);
+}
+@font-face {
+  font-family: graphik-600;
+  src: url(Graphik-Font-Family/GraphikSemibold.otf);
+}
+@font-face {
+  font-family: graphik-500;
+  src: url(Graphik-Font-Family/GraphikMedium.otf);
+}
+@font-face {
+  font-family: graphik;
+  src: url(Graphik-Font-Family/GraphikRegular.otf);
+}
+@font-face {
+  font-family: graphik-300;
+  src: url(Graphik-Font-Family/GraphikLight.otf);
+}
+:root {
+  --blue: #0668e3;
+  --orange: #ff9000;
+  --black: #212529;
+  --white: #ffffff;
+}
+.blue-bg {
+  background-color: var(--blue);
+}
+.orange-bg {
+  background-color: var(--orange);
+}
+.black-bg {
+  background-color: var(--black);
+}
+.white-bg {
+  background-color: var(--white);
+}
+.blue-txt {
+  color: var(--blue);
+}
+.orange-txt {
+  color: var(--orange);
+}
+.black-txt {
+  color: var(--black);
+}
+.white-txt {
+  color: var(--white);
+}
+.font-400 {
+  font-family: graphik-400;
+}
+.font-500 {
+  font-family: graphik-500;
+}
+.font-600 {
+  font-family: graphik-600;
+}
+.font-700 {
+  font-family: graphik-700;
+}
