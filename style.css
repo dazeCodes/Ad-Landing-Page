@@ -33,15 +33,16 @@
 input {
   -webkit-appearance: none;
   appearance: none;
+  outline: none;
 }
-input[type="checkbox"] {
+input[type="radio"] {
   border: 2px solid var(--white);
   width: 30px;
   height: 30px;
   border-radius: 5px;
   cursor: pointer;
 }
-input[type="checkbox"]:checked {
+input[type="radio"]:focus {
   background-color: var(--orange);
   outline: none;
 }
