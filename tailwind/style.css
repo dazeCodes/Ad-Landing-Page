@@ -66,3 +66,16 @@
 .font-700 {
   font-family: graphik-700;
 }
+.blue-sect div {
+  background: url(../img/Ellipse26.svg), url(../img/Ellipse28.svg),
+    url(../img/Ellipse25.svg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top 10px left 10px, center bottom 10px,
+    bottom 10px right 10px;
+}
+footer {
+  background: url(../img/Vector4.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
