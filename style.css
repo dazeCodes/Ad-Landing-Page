@@ -22,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 :root {
   --blue: #0668e3;
@@ -30,7 +30,21 @@
   --black: #212529;
   --white: #ffffff;
 }
-
+input {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="checkbox"] {
+  border: 2px solid var(--white);
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: var(--orange);
+  outline: none;
+}
 main {
   height: 80vh;
   display: flex;
@@ -58,14 +72,19 @@ main {
   font-family: graphik-700;
 }
 .blue-sect {
+  background: var(--blue);
+  border-radius: 7px;
+  box-shadow: 0px 4px 13px rgba(196, 196, 196, 0.25);
 }
 .blue-sect div {
   width: 60vw;
   height: 130px;
-  background: var(--blue);
-  box-shadow: 0px 4px 13px rgba(196, 196, 196, 0.25);
-  border-radius: 7px;
-
+  background: url(./img/Ellipse26.svg), url(./img/Ellipse28.svg),
+    url(./img/Ellipse25.svg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top 16px left 16px, center bottom 16px,
+    bottom 16px right 16px;
   font-family: graphik-500;
   font-style: normal;
   font-size: 22px;
@@ -147,10 +166,14 @@ footer img {
 }
 /* for questionnare */
 .quest-blue-sect {
-  background: var(--blue);
+  background-color: var(--blue);
+  background-image: url(./img/Ellipse28.svg), url(./img/Ellipse26.svg),
+    url(./img/Ellipse25.svg);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: top 4px left 6px, top 6px right, bottom 6px right 6px;
   width: 60vw;
   height: 360px;
-  background: var(--blue);
   box-shadow: 0px 4px 13px rgba(196, 196, 196, 0.25);
   border-radius: 7px;
   display: flex;
@@ -177,6 +200,8 @@ footer img {
   margin-right: 10%;
   font-family: graphik-400;
   font-size: 24px;
+  display: flex;
+  align-items: center;
 }
 .second-sect {
   width: 60vw;
