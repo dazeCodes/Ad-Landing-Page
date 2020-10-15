@@ -79,3 +79,12 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 640px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1280px) {
+}
