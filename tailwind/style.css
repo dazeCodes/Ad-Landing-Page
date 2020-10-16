@@ -88,14 +88,15 @@ footer {
 }
 
 @media screen and (min-width: 640px) {
+  #app {
+    width: 140px !important;
+  }
 }
 @media screen and (min-width: 768px) {
-  #app {
-    width: 140px;
-  }
 }
 @media screen and (min-width: 1024px) {
 }
 @media screen and (min-width: 1280px) {
   #app {
+  }
 }
