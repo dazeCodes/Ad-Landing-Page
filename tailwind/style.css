@@ -86,6 +86,20 @@ footer {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="radio"] {
+  border: 1px solid var(--white);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+input[type="radio"]:focus {
+  background-color: var(--orange);
+}
 
 @media screen and (min-width: 640px) {
 }
